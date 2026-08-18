@@ -2,10 +2,13 @@
   "name": "arnav-bot-spam",
   "version": "2.0.0",
   "description": "WhatsApp group name changer + unlimited spam attacks",
-  "main": "arnav3.mjs",
+  "main": "arnav3.js",
   "type": "module",
   "scripts": {
-    "start": "node arnav3.mjs"
+    "start": "node arnav3.js"
+  },
+  "engines": {
+    "node": "18.x"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.7",
@@ -14,8 +17,5 @@
     "node-gtts": "^2.0.2",
     "ffmpeg-static": "^5.2.0",
     "express": "^4.18.2"
-  },
-  "engines": {
-    "node": ">=18.0.0"
   }
 }
